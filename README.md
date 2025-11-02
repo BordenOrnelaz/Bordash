@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Personal Brand</title>
+    <title>Borden | Personal Brand</title>
     <style>
         /* Reset and Base Styles - Minimalist foundation */
         * {
@@ -13,7 +12,7 @@
         }
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(to bottom, #f0f4f8, #d9e2ec); /* Subtle gradient for depth */
+            background: linear-gradient(to bottom, #000000, #d9e2ec); /* Subtle gradient for depth */
             color: #333;
             line-height: 1.6;
             display: flex;
