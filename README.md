@@ -13,7 +13,7 @@
         }
         body {
             font-family: 'Playfair Display', Playfair Display, sans-serif;
-            background: linear-gradient(to bottom, #000000, #636363); /* Subtle gradient for depth */
+            background: linear-gradient(to bottom, #000000, #1f1f1f); /* Subtle gradient for depth */
             color: #000;
             line-height: 1.6;
             display: flex;
@@ -27,10 +27,10 @@
         .container {
             max-width: 800px;
             width: 100%;
-            background: rgba(fff, 255, 123, 0.85); /* Semi-transparent for airy feel */
+            background: rgba(fff, 300, 123, 0.85); /* Semi-transparent for airy feel */
             padding: 60px 40px;
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
+            box-shadow: 0 10px 30px rgba(100, 100, 0, 0.1); /* Soft shadow for elevation */
             text-align: center;
             position: relative;
             overflow: hidden;
@@ -131,13 +131,13 @@
             display: inline-block;
             margin-top: 30px;
             padding: 12px 30px;
-            background: #CFA406;
-            color: #800;
+            background: #CC9223;
+            color: #900;
             text-decoration: none;
-            border-radius: 50px;
+            border-radius: 2000px;
             font-weight: bold;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 10px rgba(100, 150, 200, 0.3);
+            box-shadow: 0 10px 100px rgba(900, 000, 000, 0.9);
         }
         .connect-btn:hover {
             background: #ff000;
@@ -148,7 +148,7 @@
         footer {
             margin-top: 50px;
             font-size: 0.9rem;
-            color: #000000;
+            color: #8c8c8c;
         }
         /* Responsive Adjustments */
         @media (max-width: 600px) {
@@ -165,7 +165,7 @@
         </header>
         
         <!-- Replace src with your photo URL or local file, e.g., 'your-photo.jpg' -->
-        <img src="https://via.placeholder.com/150" alt="Your Profile Photo" class="profile-img">
+        <img src="https://pbs.twimg.com/profile_images/1983416258532982784/jch7ry_6_400x400.jpg" alt="Your Profile Photo" class="profile-img">
         
         <section id="about">
             <h2>About Me</h2>
