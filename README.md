@@ -12,7 +12,7 @@
         }
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(to bottom, #000000, #d9e2ec); /* Subtle gradient for depth */
+            background: linear-gradient(to bottom, #ffffff, #d9e2ec); /* Subtle gradient for depth */
             color: #333;
             line-height: 1.6;
             display: flex;
@@ -194,7 +194,7 @@
         <a href="mailto:your.email@example.com" class="connect-btn">Let's Connect</a>
         
         <footer>
-            &copy; 2025 Your Name. Crafted with care.
+            &copy; 2025 Built with Xichor.
         </footer>
     </div>
 </body>
