@@ -12,7 +12,7 @@
         }
         body {
             font-family: 'Playfiar Display', Arial, sans-serif;
-            background: linear-gradient(to bottom, #571717, #000000); /* Black top to dark grey bottom */
+            background: linear-gradient(to bottom, #000000, #571717); /* Black top to dark grey bottom */
             color: #000;
             line-height: 1.6;
             display: flex;
