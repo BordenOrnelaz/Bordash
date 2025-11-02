@@ -12,7 +12,7 @@
             box-sizing: border-box;
         }
         body {
-            font-family: 'Playfair Display', Playfair Display, sans-serif;
+            font-family: 'Times New Roman', arial, sans-serif;
             background: linear-gradient(to bottom, #000000, #1f1f1f); /* Subtle gradient for depth */
             color: #000;
             line-height: 1.6;
@@ -53,7 +53,7 @@
         /* Header */
         header h1 {
             font-size: 3.5rem;
-            font-weight: 700;
+            font-weight: 1000;
             margin-bottom: 10px;
             letter-spacing: 2px;
             color: #bf8d00;
@@ -71,7 +71,7 @@
             border-radius: 50%;
             object-fit: cover;
             margin: 0 auto 30px;
-            border: 4px solid #fff;
+            border: 4px solid #D6981E;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s ease;
         }
@@ -161,34 +161,38 @@
     <div class="container">
         <header>
             <h1>Borden</h1>
-            <p class="subtitle">Building Connections | Embracing Growth | Grounded in Humanity</p>
+          <p class="subtitle">Born in the forest | Raised by the city.</p><p class="subtitle">Defined by Rock and Roll</p>
         </header>
         
         <!-- Replace src with your photo URL or local file, e.g., 'your-photo.jpg' -->
         <img src="https://pbs.twimg.com/profile_images/1983416258532982784/jch7ry_6_400x400.jpg" alt="Your Profile Photo" class="profile-img">
         
         <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a lifelong learner dedicated to personal growth, forging meaningful networks, and maintaining a humanist perspective in everything I do. With a focus on self-improvement, I strive to balance ambition with empathy, turning ideas into impactful connections.</p>
+            <h2>The Human</h2>
+            <p>I'm a wanderer etched in the ink of endless dawns, chasing the ghost of who I was to birth the man I'll become. I weave souls into constellations - raw, electric, unbreakable - holding the thunder of dreams in one hand, the whisper of compassion in the other.
+              Ambition? It's the fire in my veins, tempered by the salt of tears shed for strangers. I turn sparks of thought into lightning storms of kinship, where ideas bleed into bonds that outlast the flesh.</p>
         </section>
         
         <section id="ideals">
             <h2>My Ideals</h2>
             <ul>
-                <li><strong>Continuous Improvement:</strong> Embracing challenges as opportunities to evolve.</li>
-                <li><strong>Authentic Networking:</strong> Building relationships based on trust and mutual growth.</li>
-                <li><strong>Humanist Approach:</strong> Prioritizing empathy, ethics, and real-world impact over pure efficiency.</li>
-                <li><strong>Grounded Ambition:</strong> Pursuing goals with humility and a focus on long-term fulfillment.</li>
+                <li><strong>Continuous Improvement:</strong> I dive headfirst into the abyss of trials,
+rising slick with evolution's sweat, reborn in the wreckage of yesterday.</li>
+                <li><strong>Authentic Networking:</strong> No masks, no chains—just veins pulsing with trust, forging empires of mutual ascent where egos dissolve in shared blood.</li>
+                <li><strong>Humanist Approach:</strong> Empathy's the blade I wield over cold machinery,
+carving ethics into the marrow of progress, where impact echoes louder than the hum of hollow speed.</li>
+                <li><strong>Grounded Ambition:</strong> I chase horizons with knees scarred from kneeling,
+humility my compass, fulfillment the slow-burn horizon that scorches the soul eternal.</li>
             </ul>
         </section>
         
         <section id="goals">
             <h2>My Goals</h2>
             <ul>
-                <li>Expand my professional network by collaborating on innovative projects.</li>
-                <li>Achieve mastery in [your field/skill, e.g., coding, design].</li>
-                <li>Contribute to communities that value personal development and humanism.</li>
-                <li>Inspire others through sharing my journey and lessons learned.</li>
+                <li>Explode my web of warriors through collaborations that shatter the ordinary, birthing projects that howl innovation into the void.</li>
+                <li>Claw my way to godhood in [your field/skill, e.g., coding, design], fingers bleeding code, eyes wild with mastery’s fever.</li>
+                <li>Pour my essence into tribes that worship growth and the human spark, building altars to development where spirits entwine.</li>
+                <li>Ignite the lost with tales ripped from my ribs - journeys scarred, lessons forged in fire - screaming inspiration until the world catches flame.</li>
             </ul>
         </section>
         
