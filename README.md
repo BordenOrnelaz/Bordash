@@ -60,7 +60,7 @@
         }
         header p.subtitle {
             font-size: 1.2rem;
-            color: #cda4a4; /* Lighter ruby tone for secondary headline */
+            color: #851111; /* Lighter ruby tone for secondary headline */
             margin-bottom: 40px;
             font-style: italic;
         }
@@ -71,7 +71,7 @@
             border-radius: 50%;
             object-fit: cover;
             margin: 0 auto 30px;
-            border: 4px solid #444444; /* Darker border to blend with background */
+            border: 4px solid #919191; /* Darker border to blend with background */
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
             transition: transform 0.3s ease;
         }
@@ -92,7 +92,7 @@
         section h2 {
             font-size: 1.8rem;
             margin-bottom: 15px;
-            color: #dc143c; /* Ruby for secondary headlines (section titles) */
+            color: #701124; /* Ruby for secondary headlines (section titles) */
             position: relative;
         }
         section h2::after {
@@ -197,7 +197,7 @@
             </ul>
         </section>
        
-        <a href="mailto:your.email@example.com" class="connect-btn">Let's Connect</a>
+        <a href="mailto:bordash@xichor.org" class="connect-btn">Let's Connect</a>
        
         <footer>
             &copy; 2025 Built with Xichor.
