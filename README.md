@@ -12,7 +12,7 @@
         }
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(to bottom, #ffffff, #d9e2ec); /* Subtle gradient for depth */
+            background: linear-gradient(to bottom, #ffffff, #2B1B17); /* Subtle gradient for depth */
             color: #333;
             line-height: 1.6;
             display: flex;
@@ -55,7 +55,7 @@
             font-weight: 300;
             margin-bottom: 10px;
             letter-spacing: 2px;
-            color: #2c3e50;
+            color: #FDBD01;
         }
         header p.subtitle {
             font-size: 1.2rem;
