@@ -165,7 +165,7 @@
         </header>
         
         <!-- Replace src with your photo URL or local file, e.g., 'your-photo.jpg' -->
-        <img src="https://pbs.twimg.com/profile_images/1983416258532982784/jch7ry_6_400x400.jpg" alt="Your Profile Photo" class="profile-img">
+        <img src="https://pbs.twimg.com/media/FgI55VVVEAAT6Sl?format=jpg&name=medium" alt="Your Profile Photo" class="profile-img">
         
         <section id="about">
             <h2>The Human</h2>
