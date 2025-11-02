@@ -11,9 +11,9 @@
             box-sizing: border-box;
         }
         body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(to bottom, #000000, #333333); /* Black top to dark grey bottom */
-            color: #333;
+            font-family: 'Playfiar Display', Arial, sans-serif;
+            background: linear-gradient(to bottom, #571717, #000000); /* Black top to dark grey bottom */
+            color: #000;
             line-height: 1.6;
             display: flex;
             flex-direction: column;
