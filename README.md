@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borden | Personal Brand</title>
+    <title>Your Name | Personal Brand</title>
     <style>
         /* Reset and Base Styles - Minimalist foundation */
         * {
@@ -11,8 +12,8 @@
             box-sizing: border-box;
         }
         body {
-            font-family: 'Playfiar Display', Arial, sans-serif;
-            background: linear-gradient(to bottom, #000000, #571717); /* Black top to dark grey bottom */
+            font-family: 'Playfair Display', Playfair Display, sans-serif;
+            background: linear-gradient(to bottom, #000000, #636363); /* Subtle gradient for depth */
             color: #000;
             line-height: 1.6;
             display: flex;
@@ -26,23 +27,22 @@
         .container {
             max-width: 800px;
             width: 100%;
-            background: rgba(255, 255, 255, 0.1); /* Subtle overlay to keep content readable on dark background */
+            background: rgba(fff, 255, 123, 0.85); /* Semi-transparent for airy feel */
             padding: 60px 40px;
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Deeper shadow for contrast on dark */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for elevation */
             text-align: center;
             position: relative;
             overflow: hidden;
-            backdrop-filter: blur(5px); /* Optional frosted-glass effect for modern feel */
         }
-        /* Artful Creativity: Subtle particle-like dots in background (lightened for visibility on dark) */
+        /* Artful Creativity: Subtle particle-like dots in background */
         .container::before {
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(circle, rgba(200, 200, 200, 0.15) 1px, transparent 1px);
+            background: radial-gradient(circle, rgba(100, 150, 200, 0.1) 1px, transparent 1px);
             background-size: 20px 20px;
-            opacity: 0.4;
+            opacity: 0.3;
             z-index: -1;
             animation: float 20s infinite linear;
         }
@@ -53,14 +53,14 @@
         /* Header */
         header h1 {
             font-size: 3.5rem;
-            font-weight: 300;
+            font-weight: 700;
             margin-bottom: 10px;
             letter-spacing: 2px;
-            color: #b8860b; /* Deep gold (darker shade of gold for elegance and readability) */
+            color: #bf8d00;
         }
         header p.subtitle {
             font-size: 1.2rem;
-            color: #851111; /* Lighter ruby tone for secondary headline */
+            color: #64748b;
             margin-bottom: 40px;
             font-style: italic;
         }
@@ -71,8 +71,8 @@
             border-radius: 50%;
             object-fit: cover;
             margin: 0 auto 30px;
-            border: 4px solid #919191; /* Darker border to blend with background */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            border: 4px solid #fff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
             transition: transform 0.3s ease;
         }
         .profile-img:hover {
@@ -82,17 +82,17 @@
         section {
             margin: 40px 0;
             padding: 20px;
-            background: rgba(50, 50, 50, 0.5); /* Darker semi-transparent for section cards */
+            background: rgba(240, 244, 248, 0.5);
             border-radius: 15px;
             transition: background 0.3s ease;
         }
         section:hover {
-            background: rgba(70, 70, 70, 0.7);
+            background: rgba(220, 230, 240, 0.7);
         }
         section h2 {
             font-size: 1.8rem;
             margin-bottom: 15px;
-            color: #701124; /* Ruby for secondary headlines (section titles) */
+            color: #8b2222;
             position: relative;
         }
         section h2::after {
@@ -103,14 +103,13 @@
             transform: translateX(-50%);
             width: 50px;
             height: 2px;
-            background: #b8860b; /* Deep gold accent underline */
+            background: #CFA406; /* Artful accent color */
         }
         section p, section ul {
             font-size: 1.1rem;
             text-align: left;
             max-width: 600px;
             margin: 0 auto;
-            color: #c0c0c0; /* Silver for main text */
         }
         section ul {
             list-style: none;
@@ -124,36 +123,32 @@
             content: '•';
             position: absolute;
             left: 0;
-            color: #b8860b; /* Deep gold bullets */
+            color: #8b0001;
             font-weight: bold;
-        }
-        section ul li strong {
-            color: #dc143c; /* Ruby for bolded terms in lists */
         }
         /* Connect Button */
         .connect-btn {
             display: inline-block;
             margin-top: 30px;
             padding: 12px 30px;
-            background: #b8860b; /* Deep gold button */
-            color: #000;
+            background: #CFA406;
+            color: #800;
             text-decoration: none;
             border-radius: 50px;
             font-weight: bold;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 10px rgba(184, 134, 11, 0.4);
+            box-shadow: 0 4px 10px rgba(100, 150, 200, 0.3);
         }
         .connect-btn:hover {
-            background: #dc143c; /* Ruby on hover */
-            color: #fff;
+            background: #ff000;
             transform: translateY(-3px);
-            box-shadow: 0 6px 15px rgba(220, 20, 60, 0.5);
+            box-shadow: 0 6px 15px rgba(100, 150, 200, 0.4);
         }
         /* Footer */
         footer {
             margin-top: 50px;
             font-size: 0.9rem;
-            color: #a0a0a0; /* Muted silver for footer */
+            color: #000000;
         }
         /* Responsive Adjustments */
         @media (max-width: 600px) {
@@ -165,18 +160,18 @@
 <body>
     <div class="container">
         <header>
-            <h1>Your Name</h1>
+            <h1>Borden</h1>
             <p class="subtitle">Building Connections | Embracing Growth | Grounded in Humanity</p>
         </header>
-       
+        
         <!-- Replace src with your photo URL or local file, e.g., 'your-photo.jpg' -->
         <img src="https://via.placeholder.com/150" alt="Your Profile Photo" class="profile-img">
-       
+        
         <section id="about">
             <h2>About Me</h2>
             <p>I'm a lifelong learner dedicated to personal growth, forging meaningful networks, and maintaining a humanist perspective in everything I do. With a focus on self-improvement, I strive to balance ambition with empathy, turning ideas into impactful connections.</p>
         </section>
-       
+        
         <section id="ideals">
             <h2>My Ideals</h2>
             <ul>
@@ -186,7 +181,7 @@
                 <li><strong>Grounded Ambition:</strong> Pursuing goals with humility and a focus on long-term fulfillment.</li>
             </ul>
         </section>
-       
+        
         <section id="goals">
             <h2>My Goals</h2>
             <ul>
@@ -196,11 +191,11 @@
                 <li>Inspire others through sharing my journey and lessons learned.</li>
             </ul>
         </section>
-       
-        <a href="mailto:bordash@xichor.org" class="connect-btn">Let's Connect</a>
-       
+        
+        <a href="mailto:bordash@xichor.org" class="connect-btn">Send a Raven</a>
+        
         <footer>
-            &copy; 2025 Built with Xichor.
+            &copy; 2025 Flows with Xichor.
         </footer>
     </div>
 </body>
